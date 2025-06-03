@@ -6,10 +6,7 @@ class Point
 	int X; //положение точки на оси Х
 
 public:
-	Point(int X = 0)
-	{
-		this->X = X;
-	}
+	Point(int X = 0) : X{ X } {}
 
 	void set_X(int X)
 	{
