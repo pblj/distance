@@ -1,8 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
 
-
-
 class Point
 {
 	int X; //положение точки на оси Х
@@ -23,7 +21,7 @@ public:
 		return X;
 	}
 
-	int distance(int X)
+	int distance(int X) // возвращает расстояние до указанной точки на оси Х
 	{
 		return abs(this->X - X);
 	}
@@ -40,6 +38,7 @@ void main()
 	Point A = 6;
 	cout << "Расстояние до указанной точки: " << A.distance(2);
 	cout << endl;
+
 
 	Point B(9);
 
