@@ -1,11 +1,11 @@
-#include <iostream>
+п»ї#include <iostream>
 using namespace std;
 
 
 
 class Point
 {
-	int X; //положение точки на оси Х
+	int X; //РїРѕР»РѕР¶РµРЅРёРµ С‚РѕС‡РєРё РЅР° РѕСЃРё РҐ
 
 public:
 	Point(int X = 0)
@@ -38,14 +38,14 @@ void main()
 	setlocale(0, "");
 
 	Point A = 6;
-	cout << "Расстояние до указанной точки: " << A.distance(2);
+	cout << "Р Р°СЃСЃС‚РѕСЏРЅРёРµ РґРѕ СѓРєР°Р·Р°РЅРЅРѕР№ С‚РѕС‡РєРё: " << A.distance(2);
 	cout << endl;
 
 	Point B(9);
 
 	int dist;
 	dist = distance(A, B);
-	cout << "Расстояние между двумя точками: " << dist << endl;
+	cout << "Р Р°СЃСЃС‚РѕСЏРЅРёРµ РјРµР¶РґСѓ РґРІСѓРјСЏ С‚РѕС‡РєР°РјРё: " << dist << endl;
 
 }
 
